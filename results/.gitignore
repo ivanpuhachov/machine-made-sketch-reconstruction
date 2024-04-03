@@ -1,0 +1,12 @@
+## this folder contains results and temp files for optimization
+*.obj
+*.png
+*.ply
+*/edges_to_cut.json
+*_raw.svg
+*_simplified.svg
+*/final_patches/
+*/predicted_patches/
+*/npz/
+*/pkl/
+*/reports/

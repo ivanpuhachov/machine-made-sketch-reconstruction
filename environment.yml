@@ -1,0 +1,22 @@
+name: mmsketch
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - conda-forge::igl
+  - conda-forge::matplotlib
+  - triangle
+  - opencv
+  - svgpathtools
+  - anaconda::scikit-learn
+  - pyomo
+  - ipopt
+  - anaconda::scikit-image
+  - cvxpy
+  - pytorch-cuda=11.7
+  - pytorch==1.13.1
+  - torchaudio==0.13.1
+  - torchvision==0.14.1
+  - lightning
+  - openexr-python
+prefix: /home/ivan/miniconda3/envs/mmsketch
